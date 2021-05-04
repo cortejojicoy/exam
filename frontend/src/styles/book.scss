@@ -1,0 +1,75 @@
+.book-container {
+  min-height: 200px;
+  margin-bottom: 20px;
+  width: 500px;
+  display:flex;
+}
+
+.book-image {
+  // background: #262c26
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.book-title {
+  margin-top: 5px;
+}
+
+.book-page-count {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.book-author {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.book-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  line-height: 1.5em;
+  height: 3em;
+  overflow: hidden;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.edit-button {
+  background: #1ea94b;
+  border:none;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete-button {
+  background:#bb2124;
+  border:none;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .book-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
